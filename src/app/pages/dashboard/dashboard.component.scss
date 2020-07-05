@@ -1,0 +1,51 @@
+.slug {
+  margin: 0;
+  padding: 20px;
+}
+
+table {
+  width: 100%;
+}
+
+.mat-form-field {
+  font-size: 14px;
+  width: 100%;
+}
+
+// tabla
+.th-td {
+  &-8 {
+    width: 8%;
+  }
+  &-10 {
+    width: 10%;
+  }
+  &-20 {
+    width: 20%;
+  }
+  &-22 {
+    width: 22%;
+  }
+}
+.area-table {
+  display: flex;
+  flex-direction: row;
+  .table-dash {
+    width: 100%;
+  }
+  .dash-expand {
+    padding-left: 20px;
+    width: 600px;
+    .title {
+      color: #3f51b5;
+      font-size: 18px;
+    }
+    .label-title {
+      color: rgba(0, 0, 0, .54);
+      font-size: 16px;
+    }
+    .w {
+      margin-bottom: 30px;
+    }
+  }
+}
